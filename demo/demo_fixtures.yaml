@@ -116,15 +116,39 @@ accounts:
       - "Krav på automation från start eller fas 2?"
       - "Tidsplan för beslut och installation?"
     decision_makers:
-      - search: VD / Ägare
+      - name: Michael Ärlebrandt
+        title: VD
         role: Executive
+        role_label_sv: VD / CEO
         priority: high
-      - search: Produktionschef
+        email: ma@vrena.se
+        phone: "+46 70 389 44 02"
+        note: Hand-curaterad från vrena.se/kontakt 2026-05-21
+      - name: Rickard Stenholm
+        title: Produktionschef (Bearbetning) — primär CNC-kontakt
         role: Technical
+        role_label_sv: COO / Produktionschef
         priority: high
+        email: rs@vrena.se
+        phone: "+46 73 588 78 55"
+        note: Ansvarig för bearbetning + production development → mest CNC-relevant
+      - name: Joakim Jakobsson
+        title: Produktionschef (Svets/Montering)
+        role: Technical
+        role_label_sv: Fabrikschef
+        priority: medium
+        email: jj@vrena.se
+        phone: "+46 73 080 46 19"
+        note: Andra produktionschef-rollen — svets-/monteringssidan
     expected_tier: AAA
     enrichment:
-      orgnr_note: Hämta från Allabolag
+      orgnr: "556268-4430"
+      employees: 71
+      website: "https://www.vrena.se"
+      address: "Oppundavägen 21, 642 62 Bettna"
+      switchboard: "0155-29 33 00"
+      legal_name: "Vrena Mekaniska Verkstad AB"
+      orgnr_note: "Verifierat via Allabolag 2026-05-21"
       nace_hint: "25.62 (legoarbete, metallbearbetning)"
 
   # ============================================================
@@ -164,15 +188,31 @@ accounts:
       - "Är det aktuellt med automation eller obemannad drift?"
       - "Hur ser maskinparkens åldersprofil ut — finns ersättningskandidater?"
     decision_makers:
-      - search: VD / Tekniskt ansvarig
-        role: Executive
-        priority: high
-      - search: Produktionschef
+      - name: Peter Karlsson
+        title: Produktionschef
         role: Technical
+        role_label_sv: COO / Produktionschef
         priority: high
+        email: peter.karlsson@lkprecision.com
+        phone: "+46 8 409 333 88"
+        note: Hand-curaterad från lkprecision.com/se/kontakt 2026-05-21
+      - name: Ronny Jansson
+        title: Teknisk säljare (saknar dedikerad Teknikchef-roll)
+        role: Technical
+        role_label_sv: Teknikchef
+        priority: medium
+        email: ronny.jansson@lkprecision.com
+        phone: "+46 73 341 49 11"
+        note: LK har ingen dedikerad Teknikchef — Ronny är närmast tekniskt ansvarig
     expected_tier: AA
     enrichment:
-      orgnr_note: Hämta från Allabolag
+      orgnr: "556237-5377"
+      legal_name: "Aktiebolaget LK Precision parts"
+      website: "https://lkprecision.com"
+      address: "Fräsarvägen 22, 142 50 Skogås"
+      switchboard: "+46 8 448 32 70"
+      group: "XANO Precision Technology"
+      orgnr_note: "Verifierat via Allabolag + Merinfo 2026-05-21"
       nace_hint: "25.62 / 25.73 (precisionslego)"
 
   # ============================================================

@@ -9,36 +9,44 @@
   "sources": [
     {"label": "Per Gabrielsson rapport via Nejra 2026-05-15", "detail": "Pågående diskussion om större Integrex"},
     {"label": "Bettna geo-mappad till D8-distrikt", "detail": "Klas distrikts-allokering"},
-    {"label": "Mazak case-bibliotek", "detail": "Integrex i-300 ROI-benchmark för 50-mans-verkstäder"}
+    {"label": "vrena.se/kontakt (2026-05-21)", "detail": "Verifierad VD + 2 Produktionschefer (bearbetning + svets) — 71 anställda"},
+    {"label": "Allabolag (org 556268-4430)", "detail": "Vrena Mekaniska Verkstad AB, Oppundavägen 21 Bettna"},
+    {"label": "Mazak case-bibliotek", "detail": "Integrex i-300 ROI-benchmark för 50-100-mans-verkstäder"}
   ],
   "decision_makers": [
     {
-      "role_label": "Ägare",
-      "role_category": "Executive",
-      "name": "Sök: VD / Ägare",
-      "title": "VD / Ägare",
-      "why_relevant": "Liten verkstad → ägare och VD ofta samma person. Slutbeslut. Nejra researchar via Allabolag styrelseregister."
-    },
-    {
       "role_label": "VD / CEO",
       "role_category": "Executive",
-      "name": "Sök: VD",
+      "name": "Michael Ärlebrandt",
       "title": "VD",
-      "why_relevant": "Affärsmandat. Per Gabrielsson har redan ingång — be honom intro:a."
+      "email": "ma@vrena.se",
+      "mobile": "+46 70 389 44 02",
+      "why_relevant": "Affärsmandat. Per Gabrielsson har redan ingång via Vrea-säljdialogen — be honom intro:a för 30-min teknik-call."
     },
     {
       "role_label": "COO / Produktionschef",
       "role_category": "Technical",
-      "name": "Sök: Produktionschef",
-      "title": "Produktionschef",
-      "why_relevant": "Operativ köpsignal — den som faktiskt vill ha Done-In-One. Sannolik intern champion."
+      "name": "Rickard Stenholm",
+      "title": "Produktionschef (Bearbetning) + Production Development",
+      "email": "rs@vrena.se",
+      "mobile": "+46 73 588 78 55",
+      "why_relevant": "PRIMÄR CNC-KONTAKT. Ansvarig för bearbetning + production development. Det är han som driver Integrex-utvärderingen tekniskt."
     },
     {
-      "role_label": "Teknikchef",
+      "role_label": "Fabrikschef",
       "role_category": "Technical",
-      "name": "Sök: Teknisk chef / CNC-ansvarig",
-      "title": "Teknisk chef",
-      "why_relevant": "Specs-signoff. Liten verkstad → kanske kombinerad roll med Produktionschef."
+      "name": "Joakim Jakobsson",
+      "title": "Produktionschef (Svets/Montering)",
+      "email": "jj@vrena.se",
+      "mobile": "+46 73 080 46 19",
+      "why_relevant": "Andra produktionschef — svets-/monteringsdelen. Mindre direkt CNC-koppling men relevant för helhet-flödet i verkstaden."
+    },
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Sök: Huvudägare",
+      "title": "Styrelseordförande / huvudägare",
+      "why_relevant": "Allabolag styrelseregister — verifiera ägarstruktur. Mindre kritisk första-kontakt eftersom Michael (VD) har operativt mandat."
     }
   ],
   "market_trend": "SE precisionsverkstäder GGVV-regionen + Bettna-Sörmland: konsolidering pågår — small-batch high-mix konkurrens från Polen + Tjeckien tvingar fram automation. Done-In-One är just nu *the* vinkel för verkstäder 20-80 anställda.",

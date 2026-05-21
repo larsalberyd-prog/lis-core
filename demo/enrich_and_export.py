@@ -289,16 +289,23 @@ def _enriched_contacts_to_frontend(
             "source": "apollo+lusha",
         })
 
-    # Lägg på fixture-placeholders för slots Apollo inte fyllt
+    # Lägg på fixture-placeholders + hand-curaterade kontakter
+    apollo_emails = {(c.get("email") or "").lower() for c in enriched if c.get("email")}
     for dm in fx_fallback_dms or []:
         if "name" in dm:
-            # Bara om namnet är "Sök: ..." eller placeholders — namngivna fixture-personer
-            # är hand-curaterade och bör alltid med
+            # Hand-curaterad person — alltid med, men skippa om Apollo redan
+            # gav samma email
+            fx_email = (dm.get("email") or "").lower()
+            if fx_email and fx_email in apollo_emails:
+                continue
             out.append({
                 "name": dm["name"], "title": dm.get("title", ""),
                 "role": dm.get("role", "Other"),
+                "role_label_sv": dm.get("role_label_sv"),
                 "priority": dm.get("priority", "medium"),
-                "email": None, "phone": None, "linkedin": None,
+                "email": dm.get("email"),
+                "phone": dm.get("phone"),
+                "linkedin": dm.get("linkedin"),
                 "note": dm.get("note"),
                 "source": "fixture-curated",
             })

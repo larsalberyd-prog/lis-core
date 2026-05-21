@@ -16,25 +16,29 @@
       "role_label": "VD / CEO",
       "role_category": "Executive",
       "name": "Fredrik Mossberg",
-      "title": "Managing Director",
+      "title": "Managing Director / VD",
       "email": "fredrik.mossberg@lkprecision.com",
       "mobile": "+46 70 493 45 64",
       "linkedin": "https://www.linkedin.com/in/fredrik-mossberg",
-      "why_relevant": "Apollo+Lusha-verifierad VD. Final budget-mandat. Premium-verkstadens beslutsfattare."
+      "why_relevant": "Apollo+Lusha-verifierad VD. Final budget-mandat. Premium-verkstadens beslutsfattare. Del av XANO Precision Technology-gruppen."
     },
     {
       "role_label": "COO / Produktionschef",
       "role_category": "Technical",
-      "name": "Sök: Produktionschef",
+      "name": "Peter Karlsson",
       "title": "Produktionschef",
-      "why_relevant": "Operativ köpare — den som lever med två-leverantörs-stöket idag. Sannolik intern champion för konsolidering."
+      "email": "peter.karlsson@lkprecision.com",
+      "mobile": "+46 8 409 333 88",
+      "why_relevant": "PRIMÄR CNC-KONTAKT. Operativ köpare. Han lever med Hermle+Nakamura-stöket idag — sannolik intern champion för konsolidering till en leverantör."
     },
     {
       "role_label": "Teknikchef",
       "role_category": "Technical",
-      "name": "Sök: Teknikchef / CNC-ansvarig",
-      "title": "Teknikchef",
-      "why_relevant": "Specs-validering. Måste övertygas att Variaxis matchar Hermle-prestandan på titanium-detaljer."
+      "name": "Ronny Jansson",
+      "title": "Teknisk säljare (LK har ingen dedikerad Teknikchef)",
+      "email": "ronny.jansson@lkprecision.com",
+      "mobile": "+46 73 341 49 11",
+      "why_relevant": "LK saknar dedikerad Teknikchef på publik kontaktsida. Ronny är närmast tekniskt ansvarig — användbar för specs-frågor men beslut sitter hos Peter Karlsson + Fredrik Mossberg."
     }
   ],
   "market_trend": "SE premium precisionsverkstäder: konsolidering till en CNC-leverantör är trenden 2025-2026 efter att Hermle+Mazak-mixens TCO-skillnader publicerats. Service-täckning + iSMART-data-loggar väger tyngre än ren spec-jämförelse.",
