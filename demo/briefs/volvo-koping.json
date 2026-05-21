@@ -1,0 +1,55 @@
+{
+  "account_id": "volvo-koping",
+  "account_name": "Volvo Köping",
+  "headline_hypothesis": "Volvo Köping — ANTI-FIT. Skip. Visar att scoring säger NEJ rätt.",
+  "subtitle": "Teknikchef ex-EMAG anti-Mazak + Volvo TS-blockad. Använd resurser på annat.",
+  "urgency": "monitor",
+  "urgency_reason": "Två blockare samtidigt: relations-blockare (Teknikchef ex-EMAG anti-Mazak) OCH procurement-blockare (Volvo TS Tier-System). Båda måste lösas innan affär är möjlig — minst 18 månaders ground-work, och Ravema vinner inte mot Volvos egna tier-1-leverantörer för transmissionsdetaljer.",
+  "hypothesis": "Volvo Köping (transmissionsfabriken) ser på pappret ut som ett dröm-konto: stor noterad ägare, hög maskin-investering-cykel, central Sverige. Men de två blockerarna gör det orealistiskt: (1) teknikchefen är ex-EMAG-säljare och dissar Mazak öppet — den enskilda dörrvakts-faktorn är så pass stark att tekniska argument inte når fram, (2) Volvo Truck Solutions Tier-System (TS) blockerar nya leverantörer som inte redan är godkända — och godkännandeprocessen är 18-36 månader för en transmissionsfabrik. LIS-scoring fångar detta korrekt — ceiling B. Detta konto fungerar som anti-fit-control för pilot-systemet: bekräftar att scoring nedprioriterar konton med interna blockare, även när vektor-fit är hög.",
+  "sources": [
+    {"label": "Klas Excel-kommentar 2026-05-20", "detail": "Teknikchef ex-EMAG-säljare, anti-Mazak öppet"},
+    {"label": "Säljkår-kunskap", "detail": "Volvo TS Tier-System blockerar non-godkända leverantörer"},
+    {"label": "Marknadsanalys SE-AUTO-EV 2026-05-20", "detail": "Volvo Group transformations-investeringar — men låst leverantörskedja"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "Teknikchef",
+      "role_category": "Technical",
+      "name": "Sök: Teknikchef (ex-EMAG, anti-Mazak)",
+      "title": "Teknikchef",
+      "why_relevant": "RELATIONS-BLOCKARE. Undvik direkt kontakt utan ny strategi — varje kontaktpunkt riskerar förstärka anti-Mazak-attityden."
+    }
+  ],
+  "market_trend": "SE auto/EV: Volvo Group transformation pågår 2024-2028 med stort capex, men leverantörskedjan är väl-defienerad och konsoliderad. Nya leverantörer kommer in långsamt och oftast via M&A av existerande tier-1.",
+  "buying_signals": [
+    {
+      "headline": "DISQUALIFICATION: Teknikchef ex-EMAG anti-Mazak",
+      "detail": "Personlig relations-blockare. Kan inte adresseras på normal sälj-tidshorisont.",
+      "date": "2026-05-20",
+      "impact": "high"
+    },
+    {
+      "headline": "PROCUREMENT GATE: Volvo TS Tier-System",
+      "detail": "Strukturell blockad. 18-36 mån godkännandeprocess.",
+      "date": "ongoing",
+      "impact": "high"
+    }
+  ],
+  "prospecting_plan": [
+    "SKIP — använd resurser på AAA-konton istället.",
+    "Quarterly monitor: kolla om teknikchef byts ut eller om Volvo TS-policy ändras.",
+    "Indirekt: bygg relationer med Volvo TS-godkända underleverantörer som kan introducera oss på sikt."
+  ],
+  "qualifying_questions": [
+    "INGA — kontot är blockerat på två nivåer."
+  ],
+  "competitors": [
+    {
+      "name": "EMAG",
+      "incumbent_machines": "EMAG svarvningssystem för transmissions-detaljer",
+      "displacement_angle": "Inget realistiskt — teknikchef-blockaren gör Mazak till en non-starter."
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

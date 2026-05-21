@@ -1,0 +1,104 @@
+{
+  "account_id": "acc-innovation",
+  "account_name": "ACC Innovation",
+  "headline_hypothesis": "ACC Innovation — försvarsdrönar-skalning kräver Mazak Integrex + automation efter 125 MSEK nyemission",
+  "subtitle": "CEO-flaggat strike-konto. Nyemission dec 2025 öronmärkt produktion. Cross-sell-möjlighet via Pronect + Addinor.",
+  "urgency": "sälj_nu",
+  "urgency_reason": "Capex-fönster öppet H1 2026 — kapitalet är redan tilldelat produktionsutrustning. Tidsfaktor: konkurrenter (DMG, Okuma) jagar samma fönster.",
+  "hypothesis": "ACC Innovation skalar drönarproduktion för försvar/heavy-lift mot 2027-leveranser. 125 MSEK från TomEnterprise AB är öronmärkt produktion + global expansion — inte FoU. Det betyder maskin-investering H1 2026. Deras detaljmix (precision aluminium, titan-frames, ROV-höljen) matchar Mazak Integrex i-200 + Variaxis perfekt: en-uppspänning + 5-axlig multi-task halverar genomloppstid på batch-storlek 20-100. FMV/Saab-leverantörskedjan är dessutom Mazak-vana — etablerad spårbarhets-trovärdighet via iSMART Factory.",
+  "sources": [
+    {"label": "Nejra e-post 2026-05-20", "detail": "Hänvisar till 125 MSEK nyemission från TomEnterprise AB för produktion + global expansion"},
+    {"label": "Alexander Olander (CEO) personlig flagga", "detail": "Strike-listan för pilot — måste finnas"},
+    {"label": "Marknadsanalys 2026-05-20", "detail": "SE-DEF-AERO är högst rankade SE-segmentet, +18% YoY 2024-2025"},
+    {"label": "Cision/MyNewsdesk", "detail": "Verifiera nyemissions-press (Nejra: ej verifierat ännu)"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Alexander Olander",
+      "title": "CEO och meddelad ägar-representant",
+      "why_relevant": "CEO-flaggade kontot till Klas — Ravemas insidertäcken. Han är beslutsfattare nr 1, inte gatekeeper."
+    },
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Alexander Olander",
+      "title": "CEO",
+      "why_relevant": "Samma person — CEO + ägar-representant. Gå direkt på Klas-relationen."
+    },
+    {
+      "role_label": "Teknikchef",
+      "role_category": "Technical",
+      "name": "Max Drougge",
+      "title": "Chief Technology Officer",
+      "email": "max.drougge@acc-group.se",
+      "mobile": "+46 76 161 86 43",
+      "linkedin": "https://www.linkedin.com/in/max-drougge",
+      "why_relevant": "CTO — teknisk signoff på maskin-val. Apollo+Lusha-verifierad. Andra-steg-kontakt efter Klas/Alexander."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Sök: VP Produktion / Operations Director",
+      "title": "VP Production",
+      "why_relevant": "Operativ signoff. Nejra researchar via LinkedIn — sannolikt nyrekryterad post-nyemission."
+    },
+    {
+      "role_label": "Fabrikschef",
+      "role_category": "Technical",
+      "name": "Sök: Platschef",
+      "title": "Plant Manager",
+      "why_relevant": "Hands-on. Värre kontaktpunkt — efter teknisk demo."
+    }
+  ],
+  "market_trend": "SE försvar/aerospace: +18% YoY 2024-2025 via FMV-investeringar, Saab Gripen-export och NATO-induced shift. Drönar-segment specifikt: +35% (Frontex, FMV, försvarsmakten direkt). ACC sitter i sweet-spot för heavy-lift + ROV-system.",
+  "buying_signals": [
+    {
+      "headline": "125 MSEK nyemission dec 2025",
+      "detail": "TomEnterprise AB. Öronmärkt produktion + global expansion + produktutveckling. INTE FoU-tunga R&D-rundan.",
+      "date": "2025-12",
+      "impact": "high"
+    },
+    {
+      "headline": "CEO-flaggat av Alexander Olander",
+      "detail": "Personlig prioritering till Klas — högsta possible interna signal.",
+      "date": "2026-05-20",
+      "impact": "high"
+    },
+    {
+      "headline": "Försvars-segment +18% YoY",
+      "detail": "Marknadssignal — Saab Gripen-export + FMV-investeringar driver leverantörskedjan.",
+      "date": "2024-2025",
+      "impact": "medium"
+    }
+  ],
+  "prospecting_plan": [
+    "Klas tar första samtalet med Alexander Olander (befintlig relation) — boka 45-min teknik+investerings-call inom 14 dagar.",
+    "Förbered Mazak Integrex i-200 + Variaxis-deck med fokus på försvarsspårbarhet (FMV ML/EAR-compliance).",
+    "Skicka case-study till Max Drougge: Mazak Integrex hos Saab-underleverantörer (HARDWORK Composites referens).",
+    "Boka teknisk demo i Värnamo-showroom för Drougge + operations-team — Erowa-automation visualiserad.",
+    "Korskoppla till Pronect + Addinor: kan vi paketera ett 3-konto-erbjudande?"
+  ],
+  "qualifying_questions": [
+    "Vilken andel av de 125 MSEK är öronmärkt maskinutrustning vs lokaler vs personal?",
+    "Vilka maskiner används idag för heavy-lift- och drönar-detaljer (Hermle? Mazak? annat)?",
+    "Är det krav på FMV-godkända leverantörskedjor eller bara civil-spårbarhet?",
+    "Vilken roll spelar Pronect och Addinor — leverantör eller dotterbolag?",
+    "Tidplan: H1 2026 produktion-igång eller H2 2026?"
+  ],
+  "competitors": [
+    {
+      "name": "DMG MORI",
+      "incumbent_machines": "Okänt — verifiera vid första samtal",
+      "displacement_angle": "Mazak Integrex Done-In-One vs DMG separat svarv+fräs. iSMART Factory-spårbarhet för FMV vs DMG NETservice."
+    },
+    {
+      "name": "Hermle",
+      "incumbent_machines": "Möjligt om de redan har Hermle C-serien",
+      "displacement_angle": "Mazak Variaxis högre stelhet för titan/Inconel — bättre för försvarsdetaljer."
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

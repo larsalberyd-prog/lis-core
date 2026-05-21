@@ -1,0 +1,89 @@
+{
+  "account_id": "zampart",
+  "account_name": "Zampart",
+  "headline_hypothesis": "Zampart — Okuma-displacement i RZ-gruppen, parallellbearbetas med Kinnex för grupp-multiplier",
+  "subtitle": "Okuma-land idag. Klas+Nejra dual-validerad. Parallell bearbetning med Kinnex ger grupp-effekt.",
+  "urgency": "varma_ledet",
+  "urgency_reason": "Som Kinnex — säljkår-skapat displacement-fönster. Strategiskt parallellt med Kinnex för att skapa grupp-trovärdighet med RZ-ledningen.",
+  "hypothesis": "Zampart är det andra benet i RZ-gruppen — kör Okuma istället för DMG. Den separata leverantörsmixen inom samma koncern är RZ:s gammal-konsoliderings-skuld som de sannolikt vill rensa upp. Mazak kan positionera som 'den ena leverantören för hela RZ-gruppen' — det är säljbart till koncern-VD-nivå även när enskilda bolags-VD:ar är försiktiga. Okumas styrkor är OSP-styrning och svarv-prestanda; Mazak MAZATROL + iSMART matchar produktivitetsbenchmark på långa cykler. Pricepoint per Zampart-maskin €400-700K, men grupp-deal kan bli €2-3M över 18 månader.",
+  "sources": [
+    {"label": "Klas Excel-ICP-lista 2026-05-20", "detail": "Okuma-displacement-mål, parallell med Kinnex"},
+    {"label": "Nejra e-post 2026-05-20", "detail": "RZ-grupp-multiplier-strategi"},
+    {"label": "Apollo enrichment 2026-05-21", "detail": "Filippa Lindberg (CEO via rzg.se-email) + Jon Werme (Production Manager) identifierade"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Filippa Lindberg",
+      "title": "CEO",
+      "email": "filippa.lindberg@rzg.se",
+      "linkedin": "https://www.linkedin.com/in/filippa-lindberg",
+      "why_relevant": "VD med rzg.se-email = sannolikt RZ-grupp-roll, inte bara Zampart. KRITISK ingång för grupp-strategi. Lusha hade tom telefon — verifiera direkt."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Jon Werme",
+      "title": "Production Manager",
+      "email": "jon.werme@rzg.se",
+      "mobile": "+46 70 353 27 20",
+      "linkedin": "https://www.linkedin.com/in/jon-werme",
+      "why_relevant": "Apollo+Lusha-verifierad. rzg.se-email = grupp-överblick. Operativ champion för displacement-strategi."
+    },
+    {
+      "role_label": "Fabrikschef",
+      "role_category": "Technical",
+      "name": "Jon Werme",
+      "title": "Production Manager (kombinerad roll)",
+      "email": "jon.werme@rzg.se",
+      "mobile": "+46 70 353 27 20",
+      "why_relevant": "Samma person — mindre bolag, kombinerad COO/Fabrikschef-roll."
+    },
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Sök: RZ Gruppen huvudägare",
+      "title": "Koncernägare RZ Gruppen",
+      "why_relevant": "Grupp-nivå-affär kräver koncern-ägar-mandat. Allabolag styrelseregister + Bolagsverket-pressmeddelanden."
+    }
+  ],
+  "market_trend": "Som Kinnex — RZ-grupp-konsolidering. Specifikt för Zampart: Okumas OSP-styrning kräver dedikerad operatörsskola; en konsolidering till Mazak MAZATROL ger 30-50% lägre utbildningskostnad över 3 år.",
+  "buying_signals": [
+    {
+      "headline": "Okuma-displacement-prioritet från Klas+Nejra",
+      "detail": "Parallellkörs med Kinnex för grupp-effekt. Strategiskt timing.",
+      "date": "2026-05-20",
+      "impact": "high"
+    },
+    {
+      "headline": "rzg.se-email-domäner — grupp-koordination indikerad",
+      "detail": "Filippa Lindberg + Jon Werme har rzg.se-emails — de fungerar grupp-roller, inte bara Zampart-roller.",
+      "date": "2026-05-21",
+      "impact": "high"
+    }
+  ],
+  "prospecting_plan": [
+    "Tomas Wilson koordinerar med Kinnex-dialogen — samma vecka för grupp-effekt.",
+    "Jon Werme första kontakt (operativ ingång) — Okuma-jämförelse, MAZATROL vs OSP.",
+    "Filippa Lindberg eskalering efter Jon — pitch RZ-grupp-strategi: en leverantör för Kinnex + Zampart + övriga.",
+    "Förbered koncern-deal-deck: 18-månaders-rollout-plan, grupp-rabatter.",
+    "Boka Filippa + Jon till Värnamo-möte med Klas + sales-direktör i rummet."
+  ],
+  "qualifying_questions": [
+    "Vilka Okuma-modeller används idag och i vilken livscykel-fas?",
+    "Finns produktivitetsproblem med nuvarande maskinpark?",
+    "Hur koordineras inköp inom RZ-gruppen — beslut per bolag eller koncern-VD?",
+    "När går nästa Okuma-service-avtal ut?",
+    "Vad är RZ-koncernens strategi för leverantörs-konsolidering 2026-2028?"
+  ],
+  "competitors": [
+    {
+      "name": "Okuma",
+      "incumbent_machines": "Sannolikt LB-svarvar + MA/MB-fräsar",
+      "displacement_angle": "Mazak MAZATROL + iSMART vs Okuma OSP — produktivitets-benchmark på lång cykel + service-täckning."
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

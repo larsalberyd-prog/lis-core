@@ -1,0 +1,82 @@
+{
+  "account_id": "axido",
+  "account_name": "Axido",
+  "headline_hypothesis": "Axido — Mazak-bakgrund-rekrytering + 1500 kvm expansion = champion-driven första-maskin",
+  "subtitle": "Dubbla samtidiga signaler. Ny produktionschef har Mazak-bakgrund. Strike-möjlighet Q2-Q3 2026.",
+  "urgency": "sälj_nu",
+  "urgency_reason": "Två signaler samtidigt med 6-8-månaders-fönster. Den nya produktionschefen (Mazak-erfaren) påverkar förstamaskin-valet ASAP — tar vi inte initiativet kör en konkurrent.",
+  "hypothesis": "Axido är ett mindre tillväxtbolag som flyttar in i 1500 kvm extra produktionsyta + har anställt en produktionschef med Mazak-bakgrund. Det är guld-kombinationen för LIS-syften: kapacitets-investering OCH intern champion. Mazak-erfarenheten hos produktionschefen betyder att 'lär-er-vår-styrning'-friktionen är borta — Smart Factory-konfiguration han redan kan operera. Förstamaskin-strategin bör vara skalbar: starta med en VTC 530 eller QT-svarv, lägg på Fastems-palett när volym växer. Pricepoint runt €250-400K för initial maskin.",
+  "sources": [
+    {"label": "Nejra e-post 2026-05-20", "detail": "+1500 kvm nya lokaler + ny prodchef med Mazak-bakgrund"},
+    {"label": "Apollo enrichment 2026-05-21", "detail": "Jonas Borgström CEO + Abed Zeidan Produktionschef verifierade"},
+    {"label": "Marknadsanalys SE-GROWTH", "detail": "Tillväxtfas-bolag är högst förvärvbarhet för förstamaskin-affär"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Jonas Borgström",
+      "title": "CEO",
+      "email": "jonas.borgstrom@axido.se",
+      "mobile": "+46 70 432 65 01",
+      "linkedin": "https://www.linkedin.com/in/jonas-borgstrom",
+      "why_relevant": "VD med budget-mandat. Apollo+Lusha A-verifierad."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Abed Zeidan",
+      "title": "Produktionschef på Axido AB",
+      "email": "abed.zeidan@axido.se",
+      "mobile": "+46 70 233 31 19",
+      "linkedin": "https://www.linkedin.com/in/abed-zeidan",
+      "why_relevant": "DEN VIKTIGASTE PERSONEN. Mazak-bakgrund = intern champion redan på plats. Verifiera Mazak-historiken via LinkedIn före samtal."
+    },
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Sök: Styrelseordförande / huvudägare",
+      "title": "Styrelseordförande",
+      "why_relevant": "Mindre bolag — ofta nära ägar-VD-relation. Allabolag-styrelseregister."
+    }
+  ],
+  "market_trend": "SE tillväxtbolag i precisionsverkstad: 2025-2026 stark trend mot 'plug-and-play' CNC-installationer för verkstäder som expanderar utan att uppfinna hjulet — Smart Factory + Erowa-palett-paket är dominerande arkitektur.",
+  "buying_signals": [
+    {
+      "headline": "+1500 kvm nya lokaler",
+      "detail": "Plant expansion = direkt investeringsfönster för ny utrustning. Lokalen står klar Q3 2026 mest sannolikt.",
+      "date": "2026-04",
+      "impact": "high"
+    },
+    {
+      "headline": "Ny produktionschef med Mazak-bakgrund",
+      "detail": "Abed Zeidan — intern champion-effekt. Mazak-fartighet borttagen.",
+      "date": "2026-04",
+      "impact": "high",
+      "linked_decision_maker": "Abed Zeidan"
+    }
+  ],
+  "prospecting_plan": [
+    "Mattias Banelind kontaktar Abed Zeidan direkt — referera till hans tidigare Mazak-erfarenhet. Boka coffee chat.",
+    "Förbered Mazak Smart Factory-deck — han känner igen layout, inte ny inlärning.",
+    "Boka teknisk demo i Värnamo-showroom när nya lokalen står klar (Q3 2026).",
+    "Skicka skalbar förstamaskin-konfiguration: VTC 530 → +Erowa-palett fas 2 → +QT-svarv fas 3.",
+    "Bjud in Borgström till lunch + showroom-besök för affärsmandatet."
+  ],
+  "qualifying_questions": [
+    "När står den nya 1500-kvm-lokalen klar för utrustning?",
+    "Vilka maskiner har Abed jobbat med tidigare (vilka Mazak-modeller specifikt)?",
+    "Är expansionen kopplad till en specifik kund eller bredare tillväxt?",
+    "Vilken finansieringsmodell — leasing eller egen kassa? Tillgång till tillväxtlån?",
+    "Vilken volym/mix förväntas i nya lokalen och när?"
+  ],
+  "competitors": [
+    {
+      "name": "Inga incumbents (tillväxtbolag)",
+      "incumbent_machines": "Sannolikt små univ-fräsar eller manuella verktygsmaskiner idag",
+      "displacement_angle": "Förstamaskin-affär — vi konkurrerar mot 'wait-and-see' och DMG/Okuma sales. Champion-effekten via Abed avgör."
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

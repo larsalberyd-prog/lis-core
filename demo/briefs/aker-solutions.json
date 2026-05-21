@@ -1,0 +1,104 @@
+{
+  "account_id": "aker-solutions",
+  "account_name": "Aker Solutions",
+  "headline_hypothesis": "Aker Solutions — Mazak Integrex/Variaxis för subsea-komponenter i Yggdrasil/Castberg-utbyggnaden",
+  "subtitle": "Equinor M&M-ramavtal NOK 100 mdr/5 år. Specialmaskin-behov för exotiska legeringar. Långsam säljcykel.",
+  "urgency": "långsiktig",
+  "urgency_reason": "Stora NO industri-konton har 12-18-månaders säljcykel. Ramavtalet skapar långsiktig produktions-pull, inte akut deadline.",
+  "hypothesis": "Aker Solutions är en strategisk NO-konto med långsiktig potential. Equinor M&M-ramavtal NOK 100 mdr/5 år säkrar leverans till Yggdrasil + Castberg-utbyggnaderna. Det betyder konstant pull för subsea-komponenter i Inconel, duplex och titanium — exakt det Mazak Variaxis (5-axlig high-stiffness) och Integrex i-400 (multi-task för svarv+fräs) är optimerade för. NO subsea/OG är högst-värderade segmentet i Ravemas marknadsanalys. Säljvärdet per maskin är €600K-1.2M; affärsfrekvens 1 maskin per 1-2 år.",
+  "sources": [
+    {"label": "Marknadsanalys NO-OG-rapport 2026-05-20", "detail": "Equinor M&M-ramavtal NOK 100 mdr/5 år (Yggdrasil + Castberg)"},
+    {"label": "Apollo enrichment 2026-05-21", "detail": "Hela executive-teamet identifierat: Kjetel Digre (CEO), Parisa Bardouni (CTO), Svein Vika (Plant Manager) + flera"},
+    {"label": "Aker Solutions Q1 2025 rapport", "detail": "Subsea-segment-utlovad CAPEX ramavtal"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Ger Manero",
+      "title": "Owner",
+      "linkedin": "https://www.linkedin.com/in/ger-manero",
+      "why_relevant": "Apollo-identifierad ägar-representant. Stor noterad organisation — ägar-mandat sitter sannolikt hos Aker ASA-board, inte enskild person."
+    },
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Kjetel Digre",
+      "title": "President & Chief Executive Officer",
+      "email": "kjetel.digre@akersolutions.com",
+      "linkedin": "https://www.linkedin.com/in/kjetel-digre",
+      "why_relevant": "Apollo-verifierad CEO. Inte direkt kontakt för maskin-affär — men relations-stamp för Aker-konto-strategi."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Thomas Wahlberg",
+      "title": "Head of Operations",
+      "linkedin": "https://www.linkedin.com/in/thomas-wahlberg",
+      "why_relevant": "Apollo-identifierad Head of Operations. Operativ köpsignal — beslut om kapacitets-investering inom subsea-tillverkning."
+    },
+    {
+      "role_label": "Teknikchef",
+      "role_category": "Technical",
+      "name": "Parisa Bardouni",
+      "title": "Chief Technology Officer | Power Solutions",
+      "email": "parisa.bardouni@akersolutions.com",
+      "mobile": "+47 40 61 43 18",
+      "linkedin": "https://www.linkedin.com/in/parisa-bardouni",
+      "why_relevant": "Apollo+Lusha-verifierad. CTO Power Solutions = teknisk specs-signoff. Lusha mobil tillgänglig — kontakta direkt."
+    },
+    {
+      "role_label": "Fabrikschef",
+      "role_category": "Technical",
+      "name": "Svein Vika",
+      "title": "Plant Manager",
+      "email": "svein.vika@akersolutions.com",
+      "mobile": "+47 46 63 95 86",
+      "linkedin": "https://www.linkedin.com/in/svein-vika",
+      "why_relevant": "Apollo+Lusha-verifierad Plant Manager. Hands-on köpare. Lusha mobile direkt. Bästa start-kontakt för operativ dialog."
+    }
+  ],
+  "market_trend": "NO subsea: Equinor + Aker BP investeringsboom 2024-2028 driven av Yggdrasil, Castberg, Wisting. Drift mot lokala (norska) leverantörer för kritiska komponenter, vilket öppnar för verkstäder som kan precision på exotiska legeringar. Mazak har track record via Nymo, Vard, Bergen Engines.",
+  "buying_signals": [
+    {
+      "headline": "Equinor M&M-ramavtal NOK 100 mdr/5 år",
+      "detail": "Yggdrasil + Castberg-utbyggnader → konstant produktions-pull 2026-2030.",
+      "date": "2025-Q4",
+      "impact": "high"
+    },
+    {
+      "headline": "Aker Solutions Q4 2025 rapport: subsea-CAPEX",
+      "detail": "Ramavtal-utlovad investering i kapacitet — verifiera senaste kvartalsrapport.",
+      "date": "2025-Q4",
+      "impact": "medium"
+    }
+  ],
+  "prospecting_plan": [
+    "Svein Vika (Plant Manager) första kontakt via Lusha-verifierad mobil — operativ, low-friction.",
+    "Parisa Bardouni teknisk uppföljning efter Svein-mötet — fokus subsea-spec på exotiska legeringar.",
+    "Förbered Mazak Variaxis-deck specifikt för Inconel/duplex/titanium-detaljer.",
+    "Referera Nymo + Vard som NO-subsea-existerande Mazak-kunder.",
+    "Långsiktigt: bygg konto-relations-team — minst 12 månaders nurture innan första affär."
+  ],
+  "qualifying_questions": [
+    "Vilka komponenter ska produceras specifikt för Yggdrasil och Castberg?",
+    "Hur stor andel av Equinor-volymen är kapacitetskritisk?",
+    "Vilken roll spelar materialspårbarhet och iSMART-loggar i upphandlingskraven?",
+    "Vilka är de norska konkurrenterna ni utvärderar (Nymo? Aibel-leverantörer?)?",
+    "Tidsplan: när måste ny kapacitet vara igång relativt Yggdrasil-produktionsstart?"
+  ],
+  "competitors": [
+    {
+      "name": "Lokala NO-verkstäder (Nymo, Vard-leverantörer)",
+      "incumbent_machines": "Mestadels Mazak och DMG-mix",
+      "displacement_angle": "Ravemas servicetäckning i NO + Sverige-baserade reservdels-logistik"
+    },
+    {
+      "name": "DMG MORI",
+      "incumbent_machines": "Möjligt om de redan har DMU-fräsar för subsea-detaljer",
+      "displacement_angle": "Mazak Variaxis stelhet + iSMART-spårbarhet för Equinor-leverantörskedjan"
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

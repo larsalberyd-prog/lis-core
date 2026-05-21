@@ -1,0 +1,76 @@
+{
+  "account_id": "vrea-mek",
+  "account_name": "Vrea Mek",
+  "headline_hypothesis": "Vrea Mek — Done-In-One: Mazak Integrex i-300 ersätter 2 maskinstationer för komplex small-batch",
+  "subtitle": "Aktiv dialog pågår via Per Gabrielsson. Kunden uttalat 'Done in One'-strategi. Stäng på 6-8 veckor.",
+  "urgency": "sälj_nu",
+  "urgency_reason": "Aktiv säljdialog (ACTIVE_SALES_DIALOGUE-signal). Window: 4-8 veckor innan kunden börjar utvärdera DMG eller Okuma som backup.",
+  "hypothesis": "Vrea Mek är en mekanisk verkstad i Bettna med komplex small-batch-mix där cykeltid är direkt korrelerad till lönsamhet. Kunden har uttalat 'Done in One' — de vill ersätta sekvensen svarv → fräs → finish med en multi-task uppspänning. Mazak Integrex i-300 (eller i-500 om batch-storlek motiverar) träffar exakt: 5-axlig fräsning + svarvning + B-axel = en uppspänning för 80% av detaljer. Per Gabrielsson har redan dialogen igång — affärsstrategi är att accelerera, inte starta. ROI-argument: 35-50% kortare cykel + en operatör mindre.",
+  "sources": [
+    {"label": "Per Gabrielsson rapport via Nejra 2026-05-15", "detail": "Pågående diskussion om större Integrex"},
+    {"label": "Bettna geo-mappad till D8-distrikt", "detail": "Klas distrikts-allokering"},
+    {"label": "Mazak case-bibliotek", "detail": "Integrex i-300 ROI-benchmark för 50-mans-verkstäder"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Sök: VD / Ägare",
+      "title": "VD / Ägare",
+      "why_relevant": "Liten verkstad → ägare och VD ofta samma person. Slutbeslut. Nejra researchar via Allabolag styrelseregister."
+    },
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Sök: VD",
+      "title": "VD",
+      "why_relevant": "Affärsmandat. Per Gabrielsson har redan ingång — be honom intro:a."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Sök: Produktionschef",
+      "title": "Produktionschef",
+      "why_relevant": "Operativ köpsignal — den som faktiskt vill ha Done-In-One. Sannolik intern champion."
+    },
+    {
+      "role_label": "Teknikchef",
+      "role_category": "Technical",
+      "name": "Sök: Teknisk chef / CNC-ansvarig",
+      "title": "Teknisk chef",
+      "why_relevant": "Specs-signoff. Liten verkstad → kanske kombinerad roll med Produktionschef."
+    }
+  ],
+  "market_trend": "SE precisionsverkstäder GGVV-regionen + Bettna-Sörmland: konsolidering pågår — small-batch high-mix konkurrens från Polen + Tjeckien tvingar fram automation. Done-In-One är just nu *the* vinkel för verkstäder 20-80 anställda.",
+  "buying_signals": [
+    {
+      "headline": "Aktiv dialog om större Integrex",
+      "detail": "Kunden själv uttryckt intresse. Done-In-One-strategi formulerad. Per Gabrielsson är insider.",
+      "date": "2026-05-15",
+      "impact": "high"
+    }
+  ],
+  "prospecting_plan": [
+    "Per Gabrielsson driver dialogen — boka teknisk demo i Bettna inom 2 veckor.",
+    "Förbered Integrex i-300 vs i-500-jämförelse baserat på deras batch-storlek-data.",
+    "Skicka ROI-kalkyl: Done-In-One vs separat svarv+fräs (Mazak-benchmark cykel-tid).",
+    "Lyfta in Erowa-paletter för obemannad nattdrift (steg 2-erbjudande).",
+    "Sätt deadline: offert ut före midsommar 2026."
+  ],
+  "qualifying_questions": [
+    "Vilken batch-storlek-mix har ni (50-100, 100-500, 500+)?",
+    "Vilka detaljer är mest tidskritiska — vad är cykeltid idag?",
+    "Vilken finansieringsmodell — leasing, lån eller egen kassa?",
+    "Krav på automation från start eller fas 2-investering?",
+    "Tidsplan: när måste maskinen vara installerad och igång?"
+  ],
+  "competitors": [
+    {
+      "name": "Okänd incumbent",
+      "incumbent_machines": "Per Gabrielsson har detaljerna — fråga vid nästa avstämning",
+      "displacement_angle": "Mazak Integrex ROI-fördelar är generella oavsett incumbent"
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

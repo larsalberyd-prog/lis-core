@@ -1,0 +1,83 @@
+{
+  "account_id": "lk-precision",
+  "account_name": "LK Precision",
+  "headline_hypothesis": "LK Precision — Variaxis-displacement från Hermle+Nakamura via konsolidering till en leverantör",
+  "subtitle": "Premium precision Skogås. Hermle (fräs) + Nakamura (svarv) idag. God personlig relation via Per Gabrielsson.",
+  "urgency": "varma_ledet",
+  "urgency_reason": "Etablerad relation kortar säljcykeln men ingen aktiv affär — vinkel: konsolideringspitch när nästa maskin-investering kommer (typiskt Q3-Q4 2026).",
+  "hypothesis": "LK Precision kör en två-leverantörs-strategi (Hermle fräs + Nakamura svarv) som ger them tekniska fördelar men dubbla service-avtal, dubbla utbildningsbudgetar och dubbel reservdels-lagerhållning. Detalj-mixen — höga toleranskrav, ofta titanium/Inconel — gör Mazak Variaxis till en stark konkurrent: 5-axlig fräs med svarvfunktion (B-axel) ger Hermle-prestanda + Nakamura-svarv i en maskin. Konsoliderings-argument bygger på driftskostnad, inte initialpris. Per Gabrielsson har förtroende — använd det för en teknisk demo, inte säljpitch.",
+  "sources": [
+    {"label": "Nejra e-post 2026-05-20", "detail": "Hermle (fräs) + Nakamura (svarv) — etablerad mix"},
+    {"label": "Per Gabrielsson — befintlig kontakt", "detail": "God relation, kortar säljcykeln"},
+    {"label": "Apollo enrichment 2026-05-21", "detail": "Fredrik Mossberg som Managing Director identifierad"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Fredrik Mossberg",
+      "title": "Managing Director",
+      "email": "fredrik.mossberg@lkprecision.com",
+      "mobile": "+46 70 493 45 64",
+      "linkedin": "https://www.linkedin.com/in/fredrik-mossberg",
+      "why_relevant": "Apollo+Lusha-verifierad VD. Final budget-mandat. Premium-verkstadens beslutsfattare."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Sök: Produktionschef",
+      "title": "Produktionschef",
+      "why_relevant": "Operativ köpare — den som lever med två-leverantörs-stöket idag. Sannolik intern champion för konsolidering."
+    },
+    {
+      "role_label": "Teknikchef",
+      "role_category": "Technical",
+      "name": "Sök: Teknikchef / CNC-ansvarig",
+      "title": "Teknikchef",
+      "why_relevant": "Specs-validering. Måste övertygas att Variaxis matchar Hermle-prestandan på titanium-detaljer."
+    }
+  ],
+  "market_trend": "SE premium precisionsverkstäder: konsolidering till en CNC-leverantör är trenden 2025-2026 efter att Hermle+Mazak-mixens TCO-skillnader publicerats. Service-täckning + iSMART-data-loggar väger tyngre än ren spec-jämförelse.",
+  "buying_signals": [
+    {
+      "headline": "Hermle + Nakamura incumbent — etablerad två-leverantörs-mix",
+      "detail": "Båda är respektabla — displacement kräver en TCO/konsoliderings-vinkel, inte spec-pitch.",
+      "date": "2026-05-20",
+      "impact": "medium"
+    },
+    {
+      "headline": "Per Gabrielsson har relation",
+      "detail": "Förtroende redan etablerat. Säljcykel kan halveras vs cold approach.",
+      "date": "ongoing",
+      "impact": "medium"
+    }
+  ],
+  "prospecting_plan": [
+    "Per Gabrielsson bokar 30-min teknisk översikt med Fredrik Mossberg — fokus konsolidering, inte produktpitch.",
+    "Förbered TCO-jämförelse: Hermle+Nakamura vs Variaxis (service-avtal, utbildning, reservdelar över 5 år).",
+    "Skicka case: precisionsverkstad som konsoliderade till Mazak Variaxis (Wenell Group referens).",
+    "Bjud in Mossberg + produktionschef till Värnamo-showroom Q3 2026.",
+    "Identifiera nästa investeringsfönster — fråga 'när är nästa maskin på agendan?'"
+  ],
+  "qualifying_questions": [
+    "Vilka detaljer är mest tidskritiska och vilken maskinpark gör dem idag?",
+    "Hur fungerar service och reservdels-logistiken med Hermle+Nakamura-mixen idag?",
+    "När är nästa större maskin-investering aktuell — Q4 2026 eller 2027?",
+    "Hur stor andel automation/obemannad drift har ni idag?",
+    "Hur ser maskinparkens åldersprofil ut — när faller äldsta maskinerna ur drift?"
+  ],
+  "competitors": [
+    {
+      "name": "Hermle",
+      "incumbent_machines": "Sannolikt C-serien fräs (C32/C42)",
+      "displacement_angle": "Mazak Variaxis i-700/i-1050 högre stelhet, integrerad svarv-funktion eliminerar Nakamura-uppspänningen"
+    },
+    {
+      "name": "Nakamura-Tome",
+      "incumbent_machines": "WT/WY-svarvar troligt",
+      "displacement_angle": "Mazak QT-svarvar (eller Integrex om de vill kombinera)"
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

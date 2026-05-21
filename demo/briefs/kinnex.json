@@ -1,0 +1,93 @@
+{
+  "account_id": "kinnex",
+  "account_name": "Kinnex",
+  "headline_hypothesis": "Kinnex — DMG-displacement i RZ-gruppen, grupp-multiplier på vinst",
+  "subtitle": "DMG-land idag. Klas+Nejra dual-validerad displacement-prioritet. Vinst öppnar Zampart + övriga RZ-bolag.",
+  "urgency": "varma_ledet",
+  "urgency_reason": "Displacement-fönster är säljkår-skapat (Klas+Nejra interna prioritet). Ingen extern deadline — vi väljer när vi slår till. Bästa fönster Q2-Q3 2026 när DMG-service-avtal sannolikt förnyas.",
+  "hypothesis": "Kinnex är del av RZ-gruppen — en koncern med flera precisionsverkstäder. De kör DMG idag, vilket innebär två saker: (1) det finns en aktiv leverantörs-relation som kan brytas, (2) gruppen koordinerar inköp så Kinnex-vinsten är en strategisk ingång till Zampart (Okuma-land) och övriga RZ-bolag. Mazaks service-täckning i D7-distriktet är överlägsen DMG:s — uppmätt utrycknings-tid. iSMART-spårbarhet och längre vital-life-cykel är TCO-argumenten. Säljcykel: 6-9 månader för första maskinen, sedan grupp-rollout 12-24 månader.",
+  "sources": [
+    {"label": "Klas Excel-ICP-lista 2026-05-20", "detail": "Displacement-mål för RZ-gruppen"},
+    {"label": "Nejra e-post 2026-05-20", "detail": "DMG-land + dual-validerad prioritet"},
+    {"label": "Apollo enrichment 2026-05-21", "detail": "Muhammad Siddiqui Co-Founder & CEO + Henrik Oldin Site Manager identifierade"}
+  ],
+  "decision_makers": [
+    {
+      "role_label": "Ägare",
+      "role_category": "Executive",
+      "name": "Muhammad Siddiqui",
+      "title": "Co-Founder & CEO",
+      "linkedin": "https://www.linkedin.com/in/muhammad-siddiqui-kinnex",
+      "why_relevant": "Co-Founder = både ägare och VD. Affärsmandat. Apollo-verifierad, Lusha tomma fält — verifiera email via Allabolag/kontaktsida."
+    },
+    {
+      "role_label": "VD / CEO",
+      "role_category": "Executive",
+      "name": "Muhammad Siddiqui",
+      "title": "Co-Founder & CEO",
+      "why_relevant": "Samma person. Klas+Nejra-strategi: gå direkt på VD med grupp-rollout-pitch, inte enskild Kinnex-affär."
+    },
+    {
+      "role_label": "Fabrikschef",
+      "role_category": "Technical",
+      "name": "Henrik Oldin",
+      "title": "Site Manager",
+      "email": "henrik.oldin@kinnex.se",
+      "mobile": "+46 511 303 34",
+      "linkedin": "https://www.linkedin.com/in/henrik-oldin",
+      "why_relevant": "Apollo+Lusha-verifierad. Operativ signoff på maskin-val. Sannolikt mest DMG-bekant person — han har erfarenheten att jämföra."
+    },
+    {
+      "role_label": "COO / Produktionschef",
+      "role_category": "Technical",
+      "name": "Sök: Produktionsansvarig",
+      "title": "Produktionsansvarig",
+      "why_relevant": "Kan vara Henrik Oldin i kombinerad roll. Annars Nejra researchar."
+    },
+    {
+      "role_label": "Teknikchef",
+      "role_category": "Technical",
+      "name": "Sök: Teknisk chef RZ-gruppen",
+      "title": "Teknisk chef",
+      "why_relevant": "Grupp-nivå tekniska val — möjlig grupp-koordinator för displacement-strategi."
+    }
+  ],
+  "market_trend": "SE precisionsverkstadsgrupper (RZ, Hallin Group, Norden, etc.) konsoliderar inköp 2024-2026. Det skapar både hot (grupp-rabatter mot incumbent) och möjlighet (grupp-bytes-vinster). DMGs nordiska service-täckning har försämrats post-2023 enligt branschrapporter.",
+  "buying_signals": [
+    {
+      "headline": "DMG-displacement-prioritet från Klas+Nejra",
+      "detail": "Säljkår-validerat displacement-mål. RZ-gruppen som helhet är strategiskt expansion-konto.",
+      "date": "2026-05-20",
+      "impact": "high"
+    },
+    {
+      "headline": "Grupp-multiplier — RZ-rollout-potential",
+      "detail": "Vinst i Kinnex öppnar Zampart + 2-3 andra RZ-bolag inom 12-24 månader.",
+      "date": "future",
+      "impact": "high"
+    }
+  ],
+  "prospecting_plan": [
+    "Tomas Wilson tar första samtalet med Henrik Oldin (operativ ingång, mindre formell).",
+    "Förbered DMG vs Mazak TCO-jämförelse: serviceavtal (NETservice vs iSMART), reservdels-respons-tid D7-distrikt.",
+    "Eskalera till Muhammad Siddiqui efter Henrik-validering — pitch RZ-grupp-strategi, inte enskild Kinnex-affär.",
+    "Bjud Henrik + ev. Muhammad till Värnamo eller Bettna för service-fokus-demo.",
+    "Pre-positionera samtidigt Zampart-dialogen (samma vecka, Klas koordinerar)."
+  ],
+  "qualifying_questions": [
+    "Hur nöjda är ni med DMG:s service-respons i D7 specifikt?",
+    "Finns det specifika DMG-modeller där prestanda inte räcker till?",
+    "Hur ser beslutsmandaten ut — Kinnex självständigt eller RZ-gruppen samordnar inköp?",
+    "Vilka övriga RZ-bolag har samma maskin-utmaningar?",
+    "När går nästa DMG-service-avtal ut?"
+  ],
+  "competitors": [
+    {
+      "name": "DMG MORI",
+      "incumbent_machines": "Sannolikt CTX-svarvar och NMV/DMU-fräsar",
+      "displacement_angle": "Mazak service-täckning bättre i D7. iSMART-spårbarhet vs DMG NETservice. TCO över 5 år lägre."
+    }
+  ],
+  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "cost_credits": 0
+}

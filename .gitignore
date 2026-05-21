@@ -9,3 +9,9 @@ build/
 dist/
 .coverage
 htmlcov/
+
+# API enrichment caches contain real PII (Apollo/Lusha lookups) — local only
+demo/.apollo_cache.sqlite
+demo/.lusha_cache.sqlite
+*.sqlite
+*.sqlite-journal
