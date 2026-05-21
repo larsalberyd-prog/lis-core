@@ -31,21 +31,26 @@ accounts:
       Cross-sell-potential till Pronect och Addinor.
     sow_potential: "€800K–1.5M (multi-maskin + automation + mätrum)"
     rationale_klas: |
-      CEO-flaggat av Alexander Olander. Strategisk för Ravema — försvars/aerospace
-      hör till de högstvärderade SE-segmenten. Måste finnas på pilotlistan.
+      Flaggat av Ravemas CEO Alexander Olander som strike-konto. Strategisk för
+      Ravema — försvars/aerospace hör till de högstvärderade SE-segmenten.
+      Måste finnas på pilotlistan.
+    flagged_by:
+      name: Alexander Olander
+      role: Ravemas CEO
+      date: "2026-05-20"
     signals:
       - type: CAPEX_ANNOUNCEMENT
         detail: 125 MSEK nyemission från TomEnterprise AB
         date: "2025-12"
         evidence_source: Nejras e-post 2026-05-20 (verifiera via cision/MyNewsdesk)
       - type: MANAGEMENT_PRIORITY
-        detail: CEO Alexander Olander personligen flaggat
+        detail: Flaggat av Ravemas CEO Alexander Olander
         date: "2026-05-20"
-        evidence_source: Mejlspår
+        evidence_source: Mejlspår internt på Ravema
     triggers:
       - "125 MSEK nyemission dec 2025 för produktion/global expansion — investeringsfönster öppet"
       - "Försvars/aerospace-segment med ökande efterfrågan post-2022"
-      - "CEO Alexander Olander personligen prioriterat detta konto"
+      - "Flaggat av Ravemas CEO Alexander Olander — högsta interna prioritet"
       - "Cross-sell-möjlighet till Pronect och Addinor i samma grupp"
     entry_angles:
       - "Capex-vinkel: Nyemissionen är öronmärkt för produktionskapacitet — vi har Mazak Integrex multi-task som halverar genomloppstiden för småserie-precisionsdetaljer."
@@ -57,11 +62,10 @@ accounts:
       - "Har ni krav på FMV-godkända leverantörskedjor?"
       - "Vilken roll spelar Pronect och Addinor i er materialförsörjning?"
     decision_makers:
-      - name: Alexander Olander
-        title: CEO
+      - search: VD / CEO ACC Innovation
         role: Executive
         priority: high
-        note: CEO-flaggade kontot till Klas direkt
+        note: Apollo föreslog "Allan Andersen" — verifiera via Allabolag-styrelseregister innan kontakt
       - search: VP Produktion / Operations Director
         role: Technical
         priority: high
@@ -69,6 +73,8 @@ accounts:
         role: Buyer
         priority: medium
     expected_tier: AAA
+    apollo_contact_blacklist:
+      - "Allan Andersen"  # Apollo-träff men ej verifierad — riskar fel CEO i demon
     enrichment:
       orgnr_note: Hämta från Allabolag (Sprint 2 enrichment-agent)
       nace_hint: "30.30 / 26.30 (luftfartyg, kommunikationsutrustning)"
@@ -219,6 +225,8 @@ accounts:
         priority: high
         note: Sannolik intern champion
     expected_tier: AAA
+    apollo_contact_blacklist:
+      - "Sebastien Lagrange"  # Apollo cross-matchade fel företag (Apogea, ej Axido AB)
     enrichment:
       orgnr_note: Hämta från Allabolag
       nace_hint: "25.62"
@@ -270,6 +278,8 @@ accounts:
         priority: medium
         note: Grupp-nivå beslutsfattare
     expected_tier: AAA
+    apollo_contact_blacklist:
+      - "Vikram Singh"  # Apollo matchade "Manager IT" mot Teknikchef-filter — fel roll-typ
     enrichment:
       orgnr_note: Hämta från Allabolag, kolla även RZ-gruppen koncernstruktur
       nace_hint: "25.62"
@@ -367,6 +377,8 @@ accounts:
         role: Technical
         priority: medium
     expected_tier: AA
+    apollo_contact_blacklist:
+      - "Ger Manero"  # Apollo-noise — Aker Solutions ASA har ingen enskild ägare
     enrichment:
       orgnr_note: Hämta från Brreg (NO)
       nace_hint: "30.11 / 28.11 (offshore/marin utrustning)"

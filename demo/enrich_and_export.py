@@ -146,13 +146,20 @@ def _enrich_account(
     *,
     enrich: bool,
 ) -> list[dict[str, Any]]:
-    """Returnerar merged-kontakter (Apollo email + Lusha mobil) per mål-roll."""
+    """Returnerar merged-kontakter (Apollo email + Lusha mobil) per mål-roll.
+
+    Filtrerar bort Apollo-träffar som är på blacklist (wrong-company-matches,
+    irrelevanta titlar) per fixturens `apollo_contact_blacklist`.
+    Dedup:erar samma person som matchar flera roll-filter — behåller den
+    starkaste roll-matchen (Executive över Technical, mer specifik över generisk).
+    """
     if not enrich:
         log.info("  enrichment disabled — skipping API calls")
         return []
 
     org_name = fx["name"]
     contacts_out: list[dict[str, Any]] = []
+    blacklist = {n.lower().strip() for n in (fx.get("apollo_contact_blacklist") or [])}
 
     # 1) Apollo: 5 roller per konto
     try:
@@ -164,6 +171,33 @@ def _enrich_account(
     except apollo.ApolloError as e:
         log.warning("  apollo failed for %s: %s", org_name, e)
         apollo_contacts = []
+
+    # Filter blacklist (wrong-company-matches etc.)
+    if blacklist:
+        before = len(apollo_contacts)
+        apollo_contacts = [
+            c for c in apollo_contacts
+            if (c.full_name or "").lower().strip() not in blacklist
+            and (c.first_name or "").lower().strip() + " " + (c.last_name or "").lower().strip() not in blacklist
+        ]
+        if len(apollo_contacts) < before:
+            log.info("  blacklist filter: dropped %d → %d kontakter", before, len(apollo_contacts))
+
+    # Dedup: samma person som matchar flera roller — behåll Executive över Technical
+    _ROLE_PRIORITY = {"owner": 0, "ceo": 1, "coo": 2, "cto": 3, "plant": 4}
+    seen_by_apollo_id: dict[str, Any] = {}
+    for ac in apollo_contacts:
+        key = ac.apollo_id or ac.full_name or ""
+        if not key:
+            continue
+        existing = seen_by_apollo_id.get(key)
+        if existing is None:
+            seen_by_apollo_id[key] = ac
+        else:
+            # Keep the one with stronger role priority
+            if _ROLE_PRIORITY.get(ac.role_key, 99) < _ROLE_PRIORITY.get(existing.role_key, 99):
+                seen_by_apollo_id[key] = ac
+    apollo_contacts = list(seen_by_apollo_id.values())
 
     # 2) Lusha för varje Apollo-hittad person — primärt för att få mobile
     for ac in apollo_contacts:
@@ -228,45 +262,70 @@ def _enriched_contacts_to_frontend(
     enriched: list[dict[str, Any]],
     fx_fallback_dms: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """Om vi har enriched contacts från Apollo+Lusha, använd dem.
-    Annars fall back till fx-fixturens hand-skrivna placeholders.
-    """
-    if enriched:
-        return [
-            {
-                "name": c.get("full_name") or (c.get("first_name") or "Sök") + " ?",
-                "title": c.get("title") or c.get("role_label_sv") or "",
-                "role": c.get("role_category", "Other"),
-                "role_label_sv": c.get("role_label_sv"),
-                "priority": "high" if c.get("role_category") == "Executive" else "medium",
-                "email": c.get("email"),
-                "email_confidence": c.get("lusha_email_confidence"),
-                "phone": c.get("mobile"),
-                "linkedin": c.get("linkedin_url"),
-                "country": c.get("country"),
-                "seniority": c.get("seniority"),
-            }
-            for c in enriched
-        ]
+    """Merga Apollo+Lusha-enriched contacts med fixture-placeholders.
 
-    # Fallback to fx fixture
+    Apollo-träffar går först (riktig data). Fixture-placeholders ("Sök: ...")
+    läggs efter — fyller slots för roller där Apollo inte hittade någon.
+    Filtrera bort fixture-placeholders vars role redan har Apollo-träff.
+    """
     out: list[dict[str, Any]] = []
+    apollo_role_keys: set[str] = set()
+
+    for c in enriched:
+        if c.get("role_key"):
+            apollo_role_keys.add(c["role_key"])
+        out.append({
+            "name": c.get("full_name") or (c.get("first_name") or "Sök") + " ?",
+            "title": c.get("title") or c.get("role_label_sv") or "",
+            "role": c.get("role_category", "Other"),
+            "role_label_sv": c.get("role_label_sv"),
+            "priority": "high" if c.get("role_category") == "Executive" else "medium",
+            "email": c.get("email"),
+            "email_confidence": c.get("lusha_email_confidence"),
+            "phone": c.get("mobile"),
+            "linkedin": c.get("linkedin_url"),
+            "country": c.get("country"),
+            "seniority": c.get("seniority"),
+            "source": "apollo+lusha",
+        })
+
+    # Lägg på fixture-placeholders för slots Apollo inte fyllt
     for dm in fx_fallback_dms or []:
         if "name" in dm:
+            # Bara om namnet är "Sök: ..." eller placeholders — namngivna fixture-personer
+            # är hand-curaterade och bör alltid med
             out.append({
                 "name": dm["name"], "title": dm.get("title", ""),
                 "role": dm.get("role", "Other"),
                 "priority": dm.get("priority", "medium"),
                 "email": None, "phone": None, "linkedin": None,
                 "note": dm.get("note"),
+                "source": "fixture-curated",
             })
         elif "search" in dm:
+            # Skippa placeholder om motsvarande Apollo-roll redan finns
+            search_term = dm["search"].lower()
+            already_filled = False
+            for ar in apollo_role_keys:
+                role_keywords = {
+                    "owner": ["ägare", "owner", "grundare"],
+                    "ceo": ["vd", "ceo"],
+                    "coo": ["coo", "produktionschef", "operations"],
+                    "cto": ["teknikchef", "cto", "teknisk"],
+                    "plant": ["fabrikschef", "plant", "platschef"],
+                }
+                if any(kw in search_term for kw in role_keywords.get(ar, [])):
+                    already_filled = True
+                    break
+            if already_filled:
+                continue
             out.append({
                 "name": f"Sök: {dm['search']}", "title": dm["search"],
                 "role": dm.get("role", "Other"),
                 "priority": dm.get("priority", "medium"),
                 "email": None, "phone": None, "linkedin": None,
                 "note": dm.get("note"),
+                "source": "placeholder",
             })
     return out
 
@@ -331,6 +390,7 @@ def _account_to_company(
             "competitorIncumbent": account.competitor_incumbent,
             "managementPriority": account.management_priority,
             "rationaleKlas": fx.get("rationale_klas", "").strip(),
+            "flaggedBy": fx.get("flagged_by"),  # {name, role, date} om internt flaggat
             "hasBrief": False,  # filled by brief-loader
         },
     }

@@ -2,30 +2,31 @@
   "account_id": "acc-innovation",
   "account_name": "ACC Innovation",
   "headline_hypothesis": "ACC Innovation — försvarsdrönar-skalning kräver Mazak Integrex + automation efter 125 MSEK nyemission",
-  "subtitle": "CEO-flaggat strike-konto. Nyemission dec 2025 öronmärkt produktion. Cross-sell-möjlighet via Pronect + Addinor.",
+  "subtitle": "Flaggat av Ravemas CEO Alexander Olander som strike-konto. Nyemission dec 2025 öronmärkt produktion. Cross-sell-möjlighet via Pronect + Addinor.",
   "urgency": "sälj_nu",
   "urgency_reason": "Capex-fönster öppet H1 2026 — kapitalet är redan tilldelat produktionsutrustning. Tidsfaktor: konkurrenter (DMG, Okuma) jagar samma fönster.",
   "hypothesis": "ACC Innovation skalar drönarproduktion för försvar/heavy-lift mot 2027-leveranser. 125 MSEK från TomEnterprise AB är öronmärkt produktion + global expansion — inte FoU. Det betyder maskin-investering H1 2026. Deras detaljmix (precision aluminium, titan-frames, ROV-höljen) matchar Mazak Integrex i-200 + Variaxis perfekt: en-uppspänning + 5-axlig multi-task halverar genomloppstid på batch-storlek 20-100. FMV/Saab-leverantörskedjan är dessutom Mazak-vana — etablerad spårbarhets-trovärdighet via iSMART Factory.",
   "sources": [
+    {"label": "Alexander Olander (Ravemas CEO) — internt flaggat", "detail": "Personlig prioritering till Klas 2026-05-20. Strike-konto — måste finnas på pilotlistan."},
     {"label": "Nejra e-post 2026-05-20", "detail": "Hänvisar till 125 MSEK nyemission från TomEnterprise AB för produktion + global expansion"},
-    {"label": "Alexander Olander (CEO) personlig flagga", "detail": "Strike-listan för pilot — måste finnas"},
     {"label": "Marknadsanalys 2026-05-20", "detail": "SE-DEF-AERO är högst rankade SE-segmentet, +18% YoY 2024-2025"},
-    {"label": "Cision/MyNewsdesk", "detail": "Verifiera nyemissions-press (Nejra: ej verifierat ännu)"}
+    {"label": "Cision/MyNewsdesk", "detail": "Verifiera nyemissions-press (Nejra: ej verifierat ännu)"},
+    {"label": "Allabolag styrelseregister (att hämta)", "detail": "Verifiera ACC:s riktiga VD + ägar-struktur innan första kontakt"}
   ],
   "decision_makers": [
     {
       "role_label": "Ägare",
       "role_category": "Executive",
-      "name": "Alexander Olander",
-      "title": "CEO och meddelad ägar-representant",
-      "why_relevant": "CEO-flaggade kontot till Klas — Ravemas insidertäcken. Han är beslutsfattare nr 1, inte gatekeeper."
+      "name": "Sök: Huvudägare ACC Innovation",
+      "title": "Huvudägare / styrelseordförande",
+      "why_relevant": "Allabolag styrelseregister — TomEnterprise AB är post-emission-ägare. Verifiera ägarstruktur innan vi kontaktar styrelsen."
     },
     {
       "role_label": "VD / CEO",
       "role_category": "Executive",
-      "name": "Alexander Olander",
-      "title": "CEO",
-      "why_relevant": "Samma person — CEO + ägar-representant. Gå direkt på Klas-relationen."
+      "name": "Sök: VD ACC Innovation",
+      "title": "VD",
+      "why_relevant": "Apollo föreslog 'Allan Andersen' men ej verifierat. Bekräfta via bolags-website eller Allabolag innan kontakt. Alexander Olander (Ravemas CEO) kan ge intro när rätt person identifierats."
     },
     {
       "role_label": "Teknikchef",
@@ -35,7 +36,7 @@
       "email": "max.drougge@acc-group.se",
       "mobile": "+46 76 161 86 43",
       "linkedin": "https://www.linkedin.com/in/max-drougge",
-      "why_relevant": "CTO — teknisk signoff på maskin-val. Apollo+Lusha-verifierad. Andra-steg-kontakt efter Klas/Alexander."
+      "why_relevant": "CTO — teknisk signoff på maskin-val. Apollo+Lusha-verifierad. Hög-prio kontakt-punkt."
     },
     {
       "role_label": "COO / Produktionschef",
@@ -61,8 +62,8 @@
       "impact": "high"
     },
     {
-      "headline": "CEO-flaggat av Alexander Olander",
-      "detail": "Personlig prioritering till Klas — högsta possible interna signal.",
+      "headline": "Flaggat av Ravemas CEO Alexander Olander",
+      "detail": "Personlig prioritering till Klas — högsta möjliga interna signal från Ravema-ledningen.",
       "date": "2026-05-20",
       "impact": "high"
     },
@@ -74,9 +75,10 @@
     }
   ],
   "prospecting_plan": [
-    "Klas tar första samtalet med Alexander Olander (befintlig relation) — boka 45-min teknik+investerings-call inom 14 dagar.",
+    "Verifiera ACC:s VD via Allabolag-styrelseregister + bolags-website innan första utkastning (Apollo 'Allan Andersen' är inte bekräftat).",
+    "Alexander Olander (Ravemas CEO) kan ge intro när rätt VD identifierats — befintlig Ravema-intern kontaktväg.",
     "Förbered Mazak Integrex i-200 + Variaxis-deck med fokus på försvarsspårbarhet (FMV ML/EAR-compliance).",
-    "Skicka case-study till Max Drougge: Mazak Integrex hos Saab-underleverantörer (HARDWORK Composites referens).",
+    "Skicka case-study till Max Drougge (CTO): Mazak Integrex hos Saab-underleverantörer (HARDWORK Composites referens).",
     "Boka teknisk demo i Värnamo-showroom för Drougge + operations-team — Erowa-automation visualiserad.",
     "Korskoppla till Pronect + Addinor: kan vi paketera ett 3-konto-erbjudande?"
   ],
@@ -99,6 +101,6 @@
       "displacement_angle": "Mazak Variaxis högre stelhet för titan/Inconel — bättre för försvarsdetaljer."
     }
   ],
-  "model_used": "hand-curaterad (claude opus 4.7 in-session)",
+  "model_used": "hand-curaterad (claude opus 4.7 in-session) — v2.1 (Alexander Olander = Ravema CEO, ej ACC)",
   "cost_credits": 0
 }
