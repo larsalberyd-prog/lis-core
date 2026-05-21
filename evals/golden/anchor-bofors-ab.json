@@ -1,0 +1,7 @@
+{
+  "expected_tier": "AA",
+  "expected_frequency": "high",
+  "kind": "anchor",
+  "notes_for_eval": null,
+  "calibration_note": "downgraded AAA→AA: pure icp-md anchor utan signals/mgmt-priority. Promotas tillbaka till AAA i Sprint 1 när live-adapters ger signaler."
+}

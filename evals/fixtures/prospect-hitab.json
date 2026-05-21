@@ -1,0 +1,24 @@
+{
+  "name": "Hitab",
+  "aliases": [],
+  "country": "SE",
+  "geo": null,
+  "segment": null,
+  "district": "D7",
+  "salesperson": "Tomas Wilson",
+  "sources": [
+    "klas-excel-2026-05-20"
+  ],
+  "salesperson_rationale": "Okuma-land men ny ägare — Klas flaggar som öppet fönster.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": "Okuma",
+  "displacement_window_signal": "Ny ägare — öppet fönster för leverantörsutvärdering",
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Ownership-change-signal ska aktivt höja score."
+}

@@ -1,0 +1,24 @@
+{
+  "name": "LK Precision",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Skogås",
+  "segment": null,
+  "district": "D8",
+  "salesperson": "Per Gabrielsson",
+  "sources": [
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Avancerade detaljer, höga toleranskrav. Kör Hermle + Nakamura. God kontakt finns.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "medium",
+  "competitor_incumbent": "Hermle + Nakamura",
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

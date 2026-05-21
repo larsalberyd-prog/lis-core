@@ -1,0 +1,24 @@
+{
+  "name": "Leax Falköping",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Falköping",
+  "segment": null,
+  "district": "D7",
+  "salesperson": "Tomas Wilson",
+  "sources": [
+    "klas-excel-2026-05-20"
+  ],
+  "salesperson_rationale": null,
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "high",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

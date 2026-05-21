@@ -1,0 +1,25 @@
+{
+  "name": "Volvo Olofström",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Olofström",
+  "segment": "SE-AUTO-EV",
+  "district": "D2",
+  "salesperson": "Mattias Banelind",
+  "sources": [
+    "klas-excel-2026-05-20",
+    "icp-md-anchors"
+  ],
+  "salesperson_rationale": null,
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "medium",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

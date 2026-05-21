@@ -1,0 +1,184 @@
+client_id: ravema
+name: Ravema AB
+languages:
+  primary: sv
+  secondary: nb
+  fallback: en
+territories: [SE, NO]
+offices:
+  - city: Värnamo
+    country: SE
+  - city: Drammen
+    country: NO
+
+portfolio:
+  brands:
+    - Mazak (full-line: turning, MC, multi-task, INTEGREX, Variaxis, laser, AM)
+    - PAMA (boring mills)
+    - Hoffmann Group (tooling)
+    - Wenzel (metrology)
+    - Jenoptik (metrology)
+    - Wilson Tool (sheet-metal punch)
+  automation:
+    - ABB
+    - FANUC
+    - Yaskawa
+    - MiR
+    - Fastems
+    - Erowa
+    - IEMCA
+
+  # Critical for LLM context — what Ravema does NOT carry.
+  anti_portfolio:
+    - vendor: Mitsubishi EDM
+      reason: FC Maskin äger SE+NO för Mitsubishi EDM (direct konkurrent)
+    - vendor: Brother Speedio
+      reason: Ingen Brother-agent i NO; Ravema bär inte i SE
+    - vendor: Tsugami / Citizen / Star
+      reason: Swiss-type gap — ej Ravema
+    - vendor: Gleason / Liebherr
+      reason: Gear-bearbetning gap — ej Ravema
+
+icp_segments:
+  - id: SE-DEF-AERO
+    name: Försvar & flyg, Sverige
+    pool_size: 80-120
+    anchors:
+      - Saab Aeronautics
+      - Saab Dynamics
+      - GKN Aerospace Engine Systems
+      - BAE Systems Hägglunds
+      - Bofors AB
+      - Nammo Sweden
+      - Eurenco Bofors
+      - Brogren Industries
+      - HANZA Mechanics
+      - MTC Powder Solutions
+      - Bharat Forge Kilsta
+      - Marström Composite
+      - Tooltec
+    must_have_certs: [AS9100D]
+    materials: [titanium, inconel, hardened_steel]
+    geo_clusters: [Linköping, Trollhättan, Karlskoga, Östergötland, Västernorrland]
+    value_prop_anchor: "Mazak INTEGREX i-X för Ti/Inconel multi-task; Variaxis 5-axis"
+    competitor_alerts:
+      - "DMG MORI inne hos GKN"
+      - "Stenbergs/MODIG ökar svensk närvaro sedan jun 2025"
+
+  - id: SE-HEAVY
+    name: Tung industri, Sverige
+    anchors: [Hitachi Energy Ludvika, ABB Robotics, Sandvik Coromant, Sandvik Mining, Atlas Copco, Epiroc, SKF]
+
+  - id: SE-MEDTECH
+    name: Medtech & dental, Sverige
+    anchors: [Nobel Biocare, Elekta, Getinge, Mölnlycke]
+
+  - id: SE-AUTO-EV
+    name: Fordon & elektrifiering, Sverige
+    anchors: [Volvo Cars Torslanda, Volvo Cars Skövde, Scania, Lyten]
+
+  - id: SE-JOBSHOP-GGVV
+    name: SME job-shops Gnosjö-regionen
+    anchors: [Thule Group, ITAB]
+    geo_clusters: [Gnosjö, Gislaved, Värnamo, Vaggeryd]
+
+  - id: NO-OG
+    name: Olja & gas / subsea, Norge
+    anchors: [Aker Solutions, Aibel, TechnipFMC Norge, OneSubsea, NOV Norway]
+
+  - id: NO-MARINE
+    name: Maritime, Norge
+    anchors: [Brunvoll, Vard, Ulstein Verft, Kongsberg Maritime]
+
+  - id: NO-DEF
+    name: Försvar, Norge
+    anchors: [Kongsberg Defence & Aerospace, Nammo Raufoss]
+
+scoring_weights:
+  default:
+    firmographic: 30
+    capacity: 20
+    signals: 30
+    engagement: 10
+    strategic: 10
+  per_segment_overrides:
+    SE-DEF-AERO:
+      signals: 35
+      strategic: 15
+      engagement: 5
+    NO-OG:
+      capacity: 25  # EBITDA-cykling — höj kapacitetsvikt
+      signals: 30
+
+signal_weights:
+  CAPEX_ANNOUNCEMENT: 10
+  PLANT_EXPANSION: 7
+  GEOGRAPHIC_EXPANSION: 5
+  NEW_FACILITY_BUILDING_PERMIT: 3
+  HIRE_OPERATIONS_DIRECTOR: 8
+  HIRE_PRODUCTION_MANAGER: 7
+  HIRE_CNC_OPERATORS_BATCH: 8
+  HIRE_AFTER_SALES_MANAGER: 6
+  HIRE_CNC_ROLE: 4
+  OWNERSHIP_CHANGE: 3
+  CEO_TRANSITION: 2
+  CERTIFICATION_CHANGE: 4
+  ACTIVE_SALES_DIALOGUE: 15
+
+data_sources:
+  jobtech:
+    enabled: true
+    country: SE
+    cost: free
+  nav_pam_stilling:
+    enabled: true
+    country: NO
+    cost: free
+  brreg:
+    enabled: true
+    country: NO
+    cost: free
+  allabolag_scrape:
+    enabled: true
+    country: SE
+    cost: scraping
+  ted:
+    enabled: true
+    country: EU
+    cost: free
+  doffin:
+    enabled: true
+    country: NO
+    cost: free
+  cision:
+    enabled: false
+    country: SE+NO
+    cost: paid
+    planned_sprint: 2
+  roaring:
+    enabled: false
+    country: SE
+    cost: paid
+    planned_sprint: 3
+
+geo_priorities:
+  - { region: GGVV, country: SE, weight: A+ }
+  - { region: Värnamo, country: SE, weight: A+ }
+  - { region: Stavanger, country: NO, weight: A, gap: true }
+  - { region: Trondheim, country: NO, weight: A, gap: true }
+  - { region: Bergen, country: NO, weight: A }
+
+mode:
+  icp_definer: B  # B = synthetic wins from Klas + ICP.md anchors (Sprint 0 default)
+  switch_to_A_after_dynamics_wins: 50
+
+outreach:
+  default_tone: "formell-direkt, svenskt-affärsmässig"
+  signature_block: "Ravema AB | Värnamo | mazak.ravema.se"
+  hitl_required: true
+
+guardrails:
+  daily_budget_usd: 50
+  budget_alert_threshold: 0.8
+  model_pinning: claude-sonnet-4-6
+  escalation_model: claude-opus-4-7

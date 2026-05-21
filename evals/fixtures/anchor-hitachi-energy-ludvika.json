@@ -1,0 +1,31 @@
+{
+  "name": "Hitachi Energy Ludvika",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Ludvika",
+  "segment": "SE-HEAVY",
+  "district": null,
+  "salesperson": null,
+  "sources": [
+    "icp-md-anchors"
+  ],
+  "salesperson_rationale": "+40% kapacitet H2-2026. PAMA-fit (transformatorkärnor).",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "high",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [
+    {
+      "type": "CAPEX_ANNOUNCEMENT",
+      "detail": "+40% kapacitetsutökning beslutad för H2-2026",
+      "date": null,
+      "source_hint": null
+    }
+  ],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

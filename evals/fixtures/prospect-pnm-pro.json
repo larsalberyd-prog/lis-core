@@ -1,0 +1,24 @@
+{
+  "name": "PNM Pro",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Torshälla",
+  "segment": null,
+  "district": "D8",
+  "salesperson": "Per Gabrielsson",
+  "sources": [
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Valde tidigare Okuma p.g.a. leveranstid, men Mazatrol passar verksamheten. Potential framåt + mindre 3-axligt-projekt + ev. robot.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "medium",
+  "competitor_incumbent": "Okuma",
+  "displacement_window_signal": null,
+  "suggested_entry_angle": "Mazatrol-fit + 3-axligt-add-on + robotlösning",
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

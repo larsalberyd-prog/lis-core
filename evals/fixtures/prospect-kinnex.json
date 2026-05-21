@@ -1,0 +1,25 @@
+{
+  "name": "Kinnex",
+  "aliases": [],
+  "country": "SE",
+  "geo": null,
+  "segment": null,
+  "district": "D7",
+  "salesperson": "Tomas Wilson",
+  "sources": [
+    "klas-excel-2026-05-20",
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Reprogruppen. Klas+Nejra föreslår starta här eftersom DMG-land — displacement-mål.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": "DMG",
+  "displacement_window_signal": null,
+  "suggested_entry_angle": "Konkurrent-displacement från DMG",
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Displacement-fixture. Score ska reflektera att aktiv displacement = öppet fönster."
+}

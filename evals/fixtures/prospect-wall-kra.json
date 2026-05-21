@@ -1,0 +1,29 @@
+{
+  "name": "Wallåkra",
+  "aliases": [],
+  "country": "SE",
+  "geo": null,
+  "segment": null,
+  "district": "D2",
+  "salesperson": "Mattias Banelind",
+  "sources": [
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Progressivt företag med stark framtidstro. Peter, drivande i utvecklingen, kompetent företagsledare.",
+  "known_decision_makers": [
+    {
+      "name": "Peter",
+      "role": "drivande_i_utveckling"
+    }
+  ],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

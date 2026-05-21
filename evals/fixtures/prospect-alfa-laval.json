@@ -1,0 +1,25 @@
+{
+  "name": "Alfa Laval",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Lund",
+  "segment": "SE-HEAVY",
+  "district": "D2",
+  "salesperson": "Mattias Banelind",
+  "sources": [
+    "nejra-email-2026-05-20",
+    "icp-md-anchors"
+  ],
+  "salesperson_rationale": "Egen produktion men så pass stora att insteg skulle skapa betydande möjligheter framåt.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "medium",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Stor strategisk konto — lågt aktivt köpfönster men hög LTV om man kommer in."
+}

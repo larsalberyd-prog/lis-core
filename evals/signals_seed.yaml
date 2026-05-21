@@ -1,0 +1,147 @@
+# Hand-curated event-classification fixtures for the signals agent.
+#
+# Each case: a realistic event-text snippet (SE or NO), the event's source
+# context (jobtech / nav_pam / press), and the expected IndustrialSignalType
+# the deterministic classifier MUST emit. `must_not_emit` is the inverse —
+# texts that look CNC-adjacent but are not real signals.
+#
+# Edit/extend this file directly; the runner reads it on every run.
+
+cases:
+  - id: hire_production_manager_se
+    source_type: jobtech
+    source_url: https://arbetsformedlingen.se/platsbanken/annonser/test-001
+    employer_name: Vrea Mek AB
+    text: |
+      Vrea Mek söker en erfaren Produktionschef till vår verkstad i
+      Värnamo. Du leder ett team om 25 medarbetare och ansvarar för
+      vår CNC-park med Mazak INTEGREX-celler.
+    expected_signals: [HIRE_PRODUCTION_MANAGER]
+
+  - id: batch_cnc_hire_se
+    source_type: jobtech
+    source_url: https://arbetsformedlingen.se/platsbanken/annonser/test-002
+    employer_name: Tooltec AB
+    text: |
+      Vi söker 5 nya CNC-operatörer till vår expanderande produktion i
+      Östersund. Fleroperationssvarvare och CNC-tekniker välkomnas
+      särskilt. Tre-skift, kollektivavtal.
+    expected_signals: [HIRE_CNC_OPERATORS_BATCH]
+
+  - id: hire_cnc_role_no
+    source_type: nav_pam_stilling
+    source_url: https://arbeidsplassen.nav.no/stillinger/stilling/test-003
+    employer_name: Brunvoll AS
+    text: |
+      Brunvoll søker dreier med erfaring fra CNC-styrte maskiner.
+      Heltidsstilling, fast ansettelse i Molde.
+    expected_signals: [HIRE_CNC_ROLE]
+
+  - id: capex_announcement_se
+    source_type: press
+    source_url: https://www.cision.com/se/test-004
+    employer_name: ACC Innovation AB
+    text: |
+      ACC Innovation genomför en nyemission om 125 MSEK för att utöka
+      produktionskapaciteten av försvarsdrönare. Investeringen går till
+      en ny produktionslina och utökad maskinpark i Östersund.
+    expected_signals: [CAPEX_ANNOUNCEMENT, FUNDING_GRANT]
+
+  - id: plant_expansion_no
+    source_type: press
+    source_url: https://www.cision.com/no/test-005
+    employer_name: Kongsberg Maritime
+    text: |
+      Kongsberg Maritime bygger ny produksjonshall i Kongsberg.
+      Selskapet fordobler kapasitet for tunglast-thrustere.
+    expected_signals: [PLANT_EXPANSION]
+
+  - id: ceo_transition_se
+    source_type: press
+    source_url: https://www.cision.com/se/test-006
+    employer_name: HANZA Mechanics
+    text: |
+      HANZA utser ny VD med tillträde 1 januari. Den tidigare VD:n
+      Erik Stenfors lämnar för annat uppdrag.
+    expected_signals: [CEO_TRANSITION]
+
+  - id: ownership_change_se
+    source_type: press
+    source_url: https://www.cision.com/se/test-007
+    employer_name: Brogren Industries
+    text: |
+      Storgruppen förvärvar Brogren Industries med tillträde Q3 2026.
+      Affären innefattar tre verkstäder i Trollhättan-regionen.
+    expected_signals: [OWNERSHIP_CHANGE]
+
+  - id: customer_win_se
+    source_type: press
+    source_url: https://www.cision.com/se/test-008
+    employer_name: Marström Composite
+    text: |
+      Marström Composite vinner kontrakt med Saab Aeronautics för
+      kompositkomponenter värd 80 MSEK över tre år.
+    expected_signals: [MAJOR_CUSTOMER_WIN]
+
+  - id: hire_operations_director_no
+    source_type: nav_pam_stilling
+    source_url: https://arbeidsplassen.nav.no/stillinger/stilling/test-009
+    employer_name: Aker Solutions
+    text: |
+      Aker Solutions søker driftssjef til vår subsea-divisjon.
+      Strategisk lederrolle med ansvar for produksjon i Stavanger.
+    expected_signals: [HIRE_OPERATIONS_DIRECTOR]
+
+  - id: supplier_switch_se
+    source_type: press
+    source_url: https://www.maskin.se/test-010
+    employer_name: PNM Pro AB
+    text: |
+      PNM Pro genomför byte av maskinleverantör efter 15 år. Företaget
+      utvärderar nu alternativ inom multi-task svarvning.
+    expected_signals: [SUPPLIER_SWITCH_SIGNAL]
+
+  - id: hire_after_sales_manager_se
+    source_type: jobtech
+    source_url: https://arbetsformedlingen.se/platsbanken/annonser/test-011
+    employer_name: Nobel Biocare
+    text: |
+      Vi söker en eftermarknadschef med teknisk bakgrund. Du leder
+      vårt service- och underhållserbjudande mot tandläkarkliniker.
+    expected_signals: [HIRE_AFTER_SALES_MANAGER]
+
+  - id: no_signal_reception
+    source_type: jobtech
+    source_url: https://arbetsformedlingen.se/platsbanken/annonser/test-012
+    employer_name: Volvo Cars
+    text: |
+      Volvo Cars söker en receptionist till huvudkontoret i Torslanda.
+      Du tar emot besökare och hanterar inkommande samtal.
+    expected_signals: []
+
+  - id: no_signal_sales_unrelated
+    source_type: jobtech
+    source_url: https://arbetsformedlingen.se/platsbanken/annonser/test-013
+    employer_name: Some Generic AB
+    text: |
+      Vi söker en innesäljare för B2B-försäljning av kontorsmaterial.
+      Telefonvana och CRM-erfarenhet ett krav.
+    expected_signals: []
+
+  - id: capex_money_no_production_noun
+    source_type: press
+    source_url: https://www.cision.com/se/test-014
+    employer_name: Some Company
+    text: |
+      Bolaget köper en konferenslokal för 50 MSEK i Stockholm city.
+      Möjligheter för uthyrning till externa parter.
+    expected_signals: []  # money present but no production-noun → must NOT classify
+
+  - id: hire_manufacturing_engineer_se
+    source_type: jobtech
+    source_url: https://arbetsformedlingen.se/platsbanken/annonser/test-015
+    employer_name: LK Precision
+    text: |
+      LK Precision söker beredare för CNC-bearbetning av precisionskomponenter.
+      Erfarenhet av CAD/CAM och Mazak-styrning meriterande.
+    expected_signals: [HIRE_MANUFACTURING_ENGINEER]

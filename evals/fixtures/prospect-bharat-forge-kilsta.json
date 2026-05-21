@@ -1,0 +1,25 @@
+{
+  "name": "Bharat Forge Kilsta",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Karlskoga",
+  "segment": "SE-DEF-AERO",
+  "district": "D7",
+  "salesperson": "Tomas Wilson",
+  "sources": [
+    "klas-excel-2026-05-20",
+    "icp-md-anchors"
+  ],
+  "salesperson_rationale": "ICP.md anchor SE-DEF-AERO; tier-1/2 i försvarsklustret Karlskoga.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "high",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

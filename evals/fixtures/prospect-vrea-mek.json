@@ -1,0 +1,31 @@
+{
+  "name": "Vrea Mek",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Bettna",
+  "segment": null,
+  "district": "D8",
+  "salesperson": "Per Gabrielsson",
+  "sources": [
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Diskussion pågår om större Integrex. Kunden vill mot 'Done in One' — minska uppdelning svarv/fräs.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "medium",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": "Done in One — Mazak INTEGREX multi-task",
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [
+    {
+      "type": "ACTIVE_SALES_DIALOGUE",
+      "detail": "Pågående diskussion om större Integrex",
+      "date": null,
+      "source_hint": null
+    }
+  ],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Aktiv affär — högsta tier oavsett vektor-fit."
+}

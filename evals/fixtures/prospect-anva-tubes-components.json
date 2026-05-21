@@ -1,0 +1,31 @@
+{
+  "name": "Anva Tubes & Components",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Eskilstuna",
+  "segment": null,
+  "district": "D8",
+  "salesperson": "Per Gabrielsson",
+  "sources": [
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Ny kontaktperson efter Robin — uppföljning planeras.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [
+    {
+      "type": "CEO_TRANSITION",
+      "detail": "Ny kontaktperson (=ny beslutsfattare) efter Robin",
+      "date": null,
+      "source_hint": null
+    }
+  ],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Ledningsskifte-signal — 90-dagarsfönstret."
+}

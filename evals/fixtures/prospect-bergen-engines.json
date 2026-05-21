@@ -1,0 +1,25 @@
+{
+  "name": "Bergen Engines",
+  "aliases": [],
+  "country": "NO",
+  "geo": "Bergen",
+  "segment": "NO-MARINE",
+  "district": "D10",
+  "salesperson": "Torbjørn Hopsdal",
+  "sources": [
+    "klas-excel-2026-05-20",
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Vill in på sikt. Kort-siktig potential begränsad men strategiskt intressant. Större bolag: 1-2 maskiner/år-tier.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "high",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Strategisk konto — säljare bedömer tier=AA (sikt), inte AAA."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Lyten",
+  "aliases": [
+    "ex-Northvolt Ett"
+  ],
+  "country": "SE",
+  "geo": "Skellefteå",
+  "segment": "SE-AUTO-EV",
+  "district": null,
+  "salesperson": null,
+  "sources": [
+    "icp-md-anchors"
+  ],
+  "salesperson_rationale": "Restart 2H-2026 efter Northvolt-konkurs. Behandlas med skepsis tills FID är offentlig.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Hög LTV om restart fullbordas, men osäker — scoring bör reflektera osäkerhet."
+}

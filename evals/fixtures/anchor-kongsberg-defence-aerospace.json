@@ -1,0 +1,31 @@
+{
+  "name": "Kongsberg Defence & Aerospace",
+  "aliases": [],
+  "country": "NO",
+  "geo": "Kongsberg",
+  "segment": "NO-DEF",
+  "district": null,
+  "salesperson": null,
+  "sources": [
+    "icp-md-anchors"
+  ],
+  "salesperson_rationale": "Arsenalet 25k → 90k m². NSM/JSM global orderbok.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "high",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [
+    {
+      "type": "PLANT_EXPANSION",
+      "detail": "Arsenalet expansion från 25 000 till 90 000 m²",
+      "date": null,
+      "source_hint": null
+    }
+  ],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": null
+}

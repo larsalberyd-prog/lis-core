@@ -1,0 +1,37 @@
+{
+  "name": "ACC Innovation",
+  "aliases": [
+    "ACC Group AB"
+  ],
+  "country": "SE",
+  "geo": null,
+  "segment": "SE-DEF-AERO",
+  "district": "D2",
+  "salesperson": "Per-Ola Karlsson",
+  "sources": [
+    "nejra-email-2026-05-20",
+    "ceo-priority"
+  ],
+  "salesperson_rationale": "Utvecklar avancerade luft-/sjödrönare, heavy-lift och ROV-system för industri/försvar. Tillväxtfas. Pronect+Addinor cross-sell-potential.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": true,
+  "coordination_flags": [
+    "Pronect",
+    "Addinor"
+  ],
+  "signals_at_capture": [
+    {
+      "type": "CAPEX_ANNOUNCEMENT",
+      "detail": "125 MSEK nyemission från TomEnterprise AB dec 2025 för produktutveckling/produktion/global expansion",
+      "date": "2025-12",
+      "source_hint": "Nejras e-post hänvisar till nyemission — verifiera via cision/MyNewsdesk"
+    }
+  ],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "FIXTURE #1. CEO Alexander Olander personligen flaggat. Om LIS missar detta = pipeline trasig. Måste hittas via Allabolag + capex-signal måste plockas upp av news-scanner."
+}

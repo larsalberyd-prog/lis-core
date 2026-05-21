@@ -1,0 +1,37 @@
+{
+  "name": "Axido",
+  "aliases": [],
+  "country": "SE",
+  "geo": null,
+  "segment": null,
+  "district": "D2",
+  "salesperson": "Mattias Banelind",
+  "sources": [
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "Mindre men spännande bolag i tillväxtfas. Byter till större lokaler (~1500 kvm extra) + nyanställt produktionschef med Mazak-bakgrund.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [
+    {
+      "type": "PLANT_EXPANSION",
+      "detail": "+1500 kvm nya lokaler",
+      "date": null,
+      "source_hint": null
+    },
+    {
+      "type": "HIRE_PRODUCTION_MANAGER",
+      "detail": "Produktionschef med Mazak-bakgrund",
+      "date": null,
+      "source_hint": null
+    }
+  ],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Två starka samtidiga signaler + Mazak-bakgrund hos prodchef = öppet fönster. LIS bör hitta detta."
+}

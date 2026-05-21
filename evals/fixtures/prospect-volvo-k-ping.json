@@ -1,0 +1,30 @@
+{
+  "name": "Volvo Köping",
+  "aliases": [],
+  "country": "SE",
+  "geo": "Köping",
+  "segment": "SE-AUTO-EV",
+  "district": "D7",
+  "salesperson": "Tomas Wilson",
+  "sources": [
+    "klas-excel-2026-05-20"
+  ],
+  "salesperson_rationale": null,
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "low",
+  "competitor_incumbent": null,
+  "displacement_window_signal": null,
+  "suggested_entry_angle": null,
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": "Teknikchef ex-EMAG-säljare, dissar Mazak öppet. Volvo TS blockerar.",
+  "personal_relationship_blockers": [
+    {
+      "role": "Teknikchef",
+      "history": "ex-EMAG-säljare",
+      "attitude": "anti-Mazak"
+    }
+  ],
+  "notes_for_eval": "ANTI-FIT FIXTURE. Får INTE rankas över B. Om LIS rankar AA/AAA = scoring missar disqualification-signaler."
+}

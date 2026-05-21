@@ -1,0 +1,25 @@
+{
+  "name": "Zampart",
+  "aliases": [],
+  "country": "SE",
+  "geo": null,
+  "segment": null,
+  "district": "D7",
+  "salesperson": "Tomas Wilson",
+  "sources": [
+    "klas-excel-2026-05-20",
+    "nejra-email-2026-05-20"
+  ],
+  "salesperson_rationale": "RZ-gruppen. Klas+Nejra föreslår starta här eftersom Okuma-land — displacement-mål.",
+  "known_decision_makers": [],
+  "expected_purchase_frequency": "unknown",
+  "competitor_incumbent": "Okuma",
+  "displacement_window_signal": null,
+  "suggested_entry_angle": "Konkurrent-displacement från Okuma",
+  "management_priority": false,
+  "coordination_flags": [],
+  "signals_at_capture": [],
+  "disqualification_notes": null,
+  "personal_relationship_blockers": [],
+  "notes_for_eval": "Displacement-fixture (Okuma)."
+}

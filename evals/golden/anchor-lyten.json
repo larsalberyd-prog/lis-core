@@ -1,0 +1,7 @@
+{
+  "expected_tier": "A",
+  "expected_frequency": "unknown",
+  "kind": "anchor",
+  "notes_for_eval": "Hög LTV om restart fullbordas, men osäker — scoring bör reflektera osäkerhet.",
+  "calibration_note": null
+}
